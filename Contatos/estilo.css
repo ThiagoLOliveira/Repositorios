@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+    margin: 90px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main, header{
+    display: flex;
+    justify-content: center;
+}
+.contatos-hud{
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    background-color: white;
+    flex-direction: column;
+    position: relative;
+}
+img{
+    border-radius: 80%;
+    width: 20%;
+    margin: 10px;
+}
+.pessoas{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px gray;
+}
+.nome{
+    font-size: 26px;
+    align-items: flex-start;
+}
+.email{
+    color: rgb(184, 173, 173);
+    margin-top: -20px;
+}
+.editar{
+    width: 78px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    visibility: hidden;
+    opacity: .5;
+}
+.pessoas:hover{
+    background-color: lightgray;
+}
+.pessoas:hover .editar{
+    visibility: initial;
+}

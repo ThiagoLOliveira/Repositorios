@@ -1,0 +1,27 @@
+h1, h2{
+    font-family: Arial;
+    font-size: large;
+    text-align: center;
+    border: solid white 3px;
+    margin: 50px 40px;
+}
+p{
+    text-align: center;
+    font-family: Georgia;
+    color:cyan;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-style: italic;
+    font-family: sans-serif;
+    color: black;
+    text-emphasis:unset;
+}
+a:hover{
+    text-decoration: none;
+    color: chocolate;
+}
+body{
+    background-color: rgb(192, 196, 189);
+}

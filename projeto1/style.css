@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    font-family:Arial, sans-serif;
+}
+/*header*/
+.cima{
+    background-image: url(imagens/bg-1.jpg);
+    background-position: right center;
+    height: 500px;
+    background-size: cover;
+    border-top: solid 1px transparent;
+}
+.cima nav ul{
+    text-align: right;
+    margin-right: 15px;
+}
+.cima nav li{
+    display: inline-block;
+    list-style: none;
+    border: solid 1px white;
+    margin: 5px;
+}
+.cima nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.cima nav a:hover{
+    background:rgba(0, 0, 0, 0.8);
+
+}
+.texto{
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+.texto h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px black;
+}
+.texto p{
+    border-bottom: solid 2px gray;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 13px;
+}
+/*Principal*/
+main{
+    width: 80%;
+    margin: auto;
+}
+.secao{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+    clear: left;
+}
+.secao div{
+    float: left;
+    box-sizing: border-box;
+    width: 32%;
+}
+.card1, .card2, .card3{
+    margin-left: 1%;
+}
+.imagens img{
+    width: 100%;
+    display: block;
+}
+.imagens p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 8px;
+    border: solid 1px transparent;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0px;
+    padding: 15px;
+}
+.secao1{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: left center;
+    padding-top: 1px;
+}
+.baixo{
+    background-color: lightgray;
+    border-bottom: solid 1px black;
+    height: 30px;
+}   
+.baixo h3{
+    margin-top: 5px;
+    padding-top: 5px;
+}
+footer{
+    background-color: gray;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}

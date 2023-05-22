@@ -1,0 +1,71 @@
+html{
+    width:100%;
+}
+body {
+    margin: 90px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    height: 1024px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.contatos-hud{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90%;
+}
+.pessoas{
+    width: 29%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    background-image: url(imagens/thumb01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+    border-radius: 2%;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin-top: 50px;
+}
+.fotos img{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+}
+.info p{
+    text-align: center;
+    margin: 0 0 0 10;
+}
+.nome{
+    font-size: 25px;
+}
+.editar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: rgb(232, 226, 226);
+}
+
+.editar a{
+    margin:auto;
+    padding: 20px;
+
+}

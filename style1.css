@@ -1,0 +1,30 @@
+body{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nome{
+    text-align: center;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
+    background-color:chocolate;
+    position: relative;
+    padding: 10px;
+}
+.objetivo{
+    text-align: left;
+    border-bottom: solid black;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+.list{
+    list-style-type: upper-roman;
+    margin: 1,5px;
+}
+.plist {
+    margin: 10px;
+    
+}
+.imagem{
+    float: right;
+}
