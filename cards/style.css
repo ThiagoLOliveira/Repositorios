@@ -1,6 +1,7 @@
 body{
     background-image: url(imagens/bg-2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,10 +13,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: white;
-    padding: 15px;
-    margin: 0;
+    padding:10px;
 }
 .main-title{
     color: white;
@@ -44,12 +44,16 @@ body{
 .section__image{
     width: 250px;
     height: 150px;
-    margin-bottom:0;
+    display: block;
+    margin: 0;
 }
 .section_txt{
     background-color: rgb(53, 50, 50);
     color: white;
-    margin-top: -4px;
+    margin: 0;
     padding:5px;
     text-transform: capitalize;
+}
+.section{
+    margin: 0;
 }
